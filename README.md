@@ -34,30 +34,30 @@ Build a professional-grade, interactive dashboard for Superstore sales data (200
 1. **Initial Setup:**
 
    * Installed MySQL and configured local database
-   * Set up MySQL Connector/ODBC for Power BI integration
+   * Set up MySQL Connector/ODBC for Power BI integration - [View Steps](./screenshots/odbc_setup)
 
-2. **Data Cleaning with Python:**
+2. **[Data Cleaning with Python:](./Superstore_Data_Transformation.ipynb)**
 
    * Fixed file encoding issues (UTF-8 handling)
    * Converted `ORDERDATE` from string to datetime format
    * Cleaned `PHONE` numbers: removed special characters like `+`, `-`, `()`, and retained valid international formats
-   * Verified nulls, duplicates, and ensured consistency across 2,900+ rows
+   * Verified nulls, duplicates, and ensured consistency across the database.
 
 3. **SQL Querying:**
 
-   * Wrote and optimized SQL queries for sales, products, discounts, and trends
+   * Wrote and optimized SQL queries for sales, products, discounts, and trends - [View Queries](./superstore_queries.sql)
 
 4. **Database Connection:**
 
-   * Established live connection using MySQL ODBC Connector
+   * Established live connection using MySQL ODBC Connector - [View Steps](./screenshots/sql_powerbi_integration)
 
 5. **Power BI Visualization:**
 
-   * KPI cards, trend lines, bar charts, maps, slicers
+   * KPI cards, trend lines, bar charts, maps, slicers - [View Dashboard](./screenshots/dashboard.png)
 
 6. **Dashboard Interactivity:**
 
-   * Filters for Year, Country, Deal Size, and Product Line
+   * Filters for Year, Country, Deal Size, and Product Line - [View Dashboard](./screenshots/dashboard.png)
 
 ---
 
@@ -76,7 +76,7 @@ Build a professional-grade, interactive dashboard for Superstore sales data (200
 
 ## 🔎 SQL Queries Used
 
-> SQL queries are provided in the `superstore_queries.sql` file.
+> SQL queries are provided in the `superstore_queries.sql` file. - [View Queries](./superstore_queries.sql)
 
 ---
 
@@ -90,7 +90,7 @@ Build a professional-grade, interactive dashboard for Superstore sales data (200
 
 ## 📸 Screenshots
 
-*.screenshots/*
+*(.screenshots/)*
 
 ---
 
